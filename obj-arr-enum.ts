@@ -4,12 +4,14 @@ enum Gender {
   OTHERS,
 }
 
-const person: {
+type PersonType = {
   name: string;
   age: number;
   hobbies: string[];
   role: [string, number, boolean];
-} = {
+};
+
+const person: PersonType = {
   name: "falade",
   age: 26,
   hobbies: ["movies", "sleeping", "music"],
