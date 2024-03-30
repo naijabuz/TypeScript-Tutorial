@@ -1,5 +1,11 @@
 "use strict";
-const button = document.querySelector("button");
-button === null || button === void 0 ? void 0 : button.addEventListener("click", () => {
-    console.log("CLICKED");
-});
+class Department {
+    constructor(m, n, o, p) {
+        this.title = m;
+        this.name = n;
+        this.gender = o;
+        this.age = p;
+    }
+}
+const procurement = new Department("Procurement", "Esther", "Female", 30);
+console.log(procurement);
