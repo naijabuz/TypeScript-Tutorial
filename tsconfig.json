@@ -108,6 +108,8 @@
   },
   "exclude": [
     "node_modules",
+    "class.ts",
+    "intersection.ts",
     "basics.ts",
     "obj-arr-enum.ts",
     "typeAlias-union.ts",
